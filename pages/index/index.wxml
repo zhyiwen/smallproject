@@ -1,0 +1,141 @@
+<!--index.wxml-->
+<view class="banner">
+  <view class='search-box'>
+    <input placeholder="搜索小区或地址"/>
+    <icon class="icon-search"></icon>
+    <icon class="icon-shuohua"></icon>
+    <icon class="icon-sao"></icon>
+  </view>
+  <image src="/assets/images/banner-text.png" class="banner-text"></image>
+</view>
+<view class='footer'>
+    <view class="footer-list-group">
+        <view class='footer-list active'>
+            <icon class='foot-img foot1'></icon>
+            <text class='foot-text'>首页</text>
+        </view>
+        <view class='footer-list'>
+            <icon class='foot-img foot2'></icon>
+            <text class='foot-text'>消息</text>
+        </view>
+        <view class='footer-list'>
+            <icon class='foot-img foot3'></icon>
+            <text class='foot-text'>取经</text>
+        </view>
+        <view class='footer-list'>
+            <icon class='foot-img foot4'></icon>
+            <text class='foot-text'>我的</text>
+        </view>
+    </view>
+</view>
+<view class="content">
+    <view class="pro clearfix">
+        <navigator url='#' class='pro-list'>
+            <image src="/assets/images/pro1.png" class="pro-img"></image>
+            <text class="pro-text">买二手房</text>
+        </navigator>
+        <navigator url='#' class='pro-list'>
+            <image src="/assets/images/pro2.png" class="pro-img"></image>
+            <text class="pro-text">租房</text>
+        </navigator>
+        <navigator url='#' class='pro-list'>
+            <image src="/assets/images/pro3.png" class="pro-img"></image>
+            <text class="pro-text">我要卖房</text>
+        </navigator>
+        <navigator url='#' class='pro-list'>
+            <image src="/assets/images/pro4.png" class="pro-img"></image>
+            <text class="pro-text">价格行情</text>
+        </navigator>
+        <navigator url='#' class='pro-list'>
+            <image src="/assets/images/pro5.png" class="pro-img"></image>
+            <text class="pro-text">房贷计算器</text>
+        </navigator>
+        <navigator url='#' class='pro-list'>
+            <image src="/assets/images/pro6.png" class="pro-img"></image>
+            <text class="pro-text">房产百科</text>
+        </navigator>
+        <navigator url='#' class='pro-list'>
+            <image src="/assets/images/pro7.png" class="pro-img"></image>
+            <text class="pro-text">最近浏览</text>
+        </navigator>
+    </view>
+    <view class='intention'>
+        <text class='intention-title'>购房意向</text>
+        <navigator url='' class='intention-a'>填写购房意向，让经纪人来帮你找房</navigator>
+        <icon class='next-icon'></icon>
+    </view>
+    <view class='sort clearfix'>
+        <navigator url='' class='sort-list' hover-class='hover-sort-list'>
+            <image src='/assets/images/sort1.png' mode='widthFix' lazy-load='true'></image>
+        </navigator>
+        <navigator url='' class='sort-list' hover-class='hover-sort-list'>
+            <image src='/assets/images/sort2.png' mode='widthFix' lazy-load='true'></image>
+        </navigator>
+        <navigator url='' class='sort-list' hover-class='hover-sort-list'>
+            <image src='/assets/images/sort3.png' mode='widthFix' lazy-load='true'></image>
+        </navigator>
+        <navigator url='' class='sort-list' hover-class='hover-sort-list'>
+            <image src='/assets/images/sort4.png' mode='widthFix' lazy-load='true'></image>
+        </navigator>
+    </view>
+    <view class='house secondHouse'>
+      <view class='house-hd clearfix'>
+        <text class='house-title'>推荐二手房</text>
+        <text class='house-desc'>全部二手房</text>
+        <icon class='next-icon'></icon>
+      </view>
+        <view class="house-bd">
+            <view class="house-bd-list">
+                <image class="house-list-img" src="https://img.alicdn.com/imgextra/i2/2590951958/TB2zU0Xsf9TBuNjy1zbXXXpepXa_!!2590951958.jpg" mode='aspectFill'></image>
+                <view class="house-list-text">
+                    <text class="text-title">鹤山小区精装修，南北通透…</text>
+                    <text class="text-desc">3室2厅1卫 89.00㎡ | 莱阳市 经济开发区</text>
+                    <view class="text-icon-group">
+                        <text class="text-icon icon2">满二</text>
+                        <text class="text-icon icon3">南北通透</text>
+                    </view>
+                    <text class="text-prince">59万</text>
+                    <text class="text-square">6629元/㎡</text>
+                </view>
+            </view>
+            <view class="house-bd-list">
+                <image class="house-list-img" src="https://img.alicdn.com/imgextra/i4/2590951958/TB25uBfseuSBuNjSsziXXbq8pXa_!!2590951958.jpg" mode='aspectFill'></image>
+                <view class="house-list-text">
+                    <text class="text-title">经典户型南厅双卧！优质好房</text>
+                    <text class="text-desc">3室2厅2卫 129.00㎡ | 莱阳市 文峰学…</text>
+                    <view class="text-icon-group">
+                        <text class="text-icon icon1">新上</text>
+                    </view>
+                    <text class="text-prince">66万</text>
+                    <text class="text-square">5116元/㎡</text>
+                </view>
+            </view>
+            <view class="house-bd-list">
+                <image class="house-list-img" src="https://img.alicdn.com/imgextra/i4/2590951958/TB2txfLjOCYBuNkSnaVXXcMsVXa_!!2590951958.jpg" mode='aspectFill'></image>
+                <view class="house-list-text">
+                    <text class="text-title">开泰华府，精装72平，带家具…</text>
+                    <text class="text-desc">2室1厅1卫 72.00㎡ | 莱阳市 冯格庄街道</text>
+                    <view class="text-icon-group">
+                        <text class="text-icon icon1">新上</text>
+                        <text class="text-icon icon3">南北通透</text>
+                    </view>
+                    <text class="text-prince">37万</text>
+                    <text class="text-square">5139元/㎡</text>
+                </view>
+            </view>
+            <view class="house-bd-list">
+                <image class="house-list-img" src="https://img.alicdn.com/imgextra/i3/2590951958/TB2mmdlsb5YBuNjSspoXXbeNFXa_!!2590951958.jpg" mode='aspectFill'></image>
+                <view class="house-list-text">
+                    <text class="text-title">文化北区，精装二楼，客厅带…</text>
+                    <text class="text-desc">3室2厅1卫 88.00㎡ | 莱阳市 东关联中…</text>
+                    <view class="text-icon-group">
+                        <text class="text-icon icon1">新上</text>
+                        <text class="text-icon icon3">南北通透</text>
+                    </view>
+                    <text class="text-prince">65万</text>
+                    <text class="text-square">7386元/㎡</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
