@@ -11,7 +11,7 @@
 <view class='footer'>
     <view class="footer-list-group">
         <view class='footer-list active'>
-            <icon class='foot-img foot1'></icon>
+            <text class='foot-img foot1'></text>
             <text class='foot-text'>首页</text>
         </view>
         <view class='footer-list'>
@@ -88,7 +88,7 @@
             <view class="house-bd-list">
                 <image class="house-list-img" src="https://img.alicdn.com/imgextra/i2/2590951958/TB2zU0Xsf9TBuNjy1zbXXXpepXa_!!2590951958.jpg" mode='aspectFill'></image>
                 <view class="house-list-text">
-                    <text class="text-title">鹤山小区精装修，南北通透…</text>
+                    <text class="text-title">鹤山小区精装修，南北通透 冬天下雨，夏天漏风</text>
                     <text class="text-desc">3室2厅1卫 89.00㎡ | 莱阳市 经济开发区</text>
                     <view class="text-icon-group">
                         <text class="text-icon icon2">满二</text>
@@ -113,7 +113,7 @@
             <view class="house-bd-list">
                 <image class="house-list-img" src="https://img.alicdn.com/imgextra/i4/2590951958/TB2txfLjOCYBuNkSnaVXXcMsVXa_!!2590951958.jpg" mode='aspectFill'></image>
                 <view class="house-list-text">
-                    <text class="text-title">开泰华府，精装72平，带家具…</text>
+                    <text class="text-title">开泰华府，精装72平，带家具西打头带西窗户</text>
                     <text class="text-desc">2室1厅1卫 72.00㎡ | 莱阳市 冯格庄街道</text>
                     <view class="text-icon-group">
                         <text class="text-icon icon1">新上</text>
@@ -126,7 +126,7 @@
             <view class="house-bd-list">
                 <image class="house-list-img" src="https://img.alicdn.com/imgextra/i3/2590951958/TB2mmdlsb5YBuNjSspoXXbeNFXa_!!2590951958.jpg" mode='aspectFill'></image>
                 <view class="house-list-text">
-                    <text class="text-title">文化北区，精装二楼，客厅带…</text>
+                    <text class="text-title">文化北区，精装二楼，客厅带阳台</text>
                     <text class="text-desc">3室2厅1卫 88.00㎡ | 莱阳市 东关联中…</text>
                     <view class="text-icon-group">
                         <text class="text-icon icon1">新上</text>
