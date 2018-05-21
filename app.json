@@ -1,6 +1,9 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/news/news",
+    "pages/list/list",
+    "pages/home/home",
     "pages/test/test",
     "pages/logs/logs"
   ],
@@ -9,5 +12,36 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#737373",
+    "selectedColor": "#4081d6",
+    "borderStyle":"#b2b2b2",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/images/home_light.png",
+        "selectedIconPath": "assets/images/home_fill_light.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "assets/images/community_light.png",
+        "selectedIconPath": "assets/images/community_fill_light.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "看房",
+        "iconPath": "assets/images/form_light.png",
+        "selectedIconPath": "assets/images/form_fill_light.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "assets/images/my_light.png",
+        "selectedIconPath": "assets/images/my_fill_light.png"
+      }
+    ]
   }
 }

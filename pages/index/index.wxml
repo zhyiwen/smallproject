@@ -8,26 +8,6 @@
   </view>
   <image src="/assets/images/banner-text.png" class="banner-text"></image>
 </view>
-<view class='footer'>
-    <view class="footer-list-group">
-        <view class='footer-list active'>
-            <text class='foot-img foot1'></text>
-            <text class='foot-text'>首页</text>
-        </view>
-        <view class='footer-list'>
-            <icon class='foot-img foot2'></icon>
-            <text class='foot-text'>消息</text>
-        </view>
-        <view class='footer-list'>
-            <icon class='foot-img foot3'></icon>
-            <text class='foot-text'>取经</text>
-        </view>
-        <view class='footer-list'>
-            <icon class='foot-img foot4'></icon>
-            <text class='foot-text'>我的</text>
-        </view>
-    </view>
-</view>
 <view class="content">
     <view class="pro clearfix">
         <navigator url='#' class='pro-list'>
