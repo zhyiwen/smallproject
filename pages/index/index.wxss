@@ -169,6 +169,11 @@
   display: block;
   font-size: 12px;
   color: #7c7c7c;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  white-space: nowrap;
 }
 .house-list-text .text-icon-group .text-icon{
   padding: 1px 5px;

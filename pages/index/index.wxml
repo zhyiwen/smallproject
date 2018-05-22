@@ -64,58 +64,21 @@
         <text class='house-desc'>全部二手房</text>
         <icon class='next-icon'></icon>
       </view>
-        <view class="house-bd">
-            <view class="house-bd-list">
-                <image class="house-list-img" src="https://img.alicdn.com/imgextra/i2/2590951958/TB2zU0Xsf9TBuNjy1zbXXXpepXa_!!2590951958.jpg" mode='aspectFill'></image>
-                <view class="house-list-text">
-                    <text class="text-title">鹤山小区精装修，南北通透 冬天下雨，夏天漏风</text>
-                    <text class="text-desc">3室2厅1卫 89.00㎡ | 莱阳市 经济开发区</text>
-                    <view class="text-icon-group">
-                        <text class="text-icon icon2">满二</text>
-                        <text class="text-icon icon3">南北通透</text>
-                    </view>
-                    <text class="text-prince">59万</text>
-                    <text class="text-square">6629元/㎡</text>
-                </view>
+      <view class="house-bd" wx:for="{{secondHouseArray}}">
+        <view class="house-bd-list">
+          <image class="house-list-img" src="{{item.imgSrc}}" mode='aspectFill'></image>
+          <view class="house-list-text">
+            <text class="text-title">{{item.title}}</text>
+            <text class="text-desc">{{item.pattern}} {{item.acreage}}㎡ | {{item.adress}}</text>
+            <view class="text-icon-group">
+              <text class="text-icon icon1" wx:if="{{item.icon1}}">新上</text>
+              <text class="text-icon icon2" wx:if="{{item.icon2}}">满二</text>
+              <text class="text-icon icon3" wx:if="{{item.icon3}}">南北通透</text>
             </view>
-            <view class="house-bd-list">
-                <image class="house-list-img" src="https://img.alicdn.com/imgextra/i4/2590951958/TB25uBfseuSBuNjSsziXXbq8pXa_!!2590951958.jpg" mode='aspectFill'></image>
-                <view class="house-list-text">
-                    <text class="text-title">经典户型南厅双卧！优质好房</text>
-                    <text class="text-desc">3室2厅2卫 129.00㎡ | 莱阳市 文峰学…</text>
-                    <view class="text-icon-group">
-                        <text class="text-icon icon1">新上</text>
-                    </view>
-                    <text class="text-prince">66万</text>
-                    <text class="text-square">5116元/㎡</text>
-                </view>
-            </view>
-            <view class="house-bd-list">
-                <image class="house-list-img" src="https://img.alicdn.com/imgextra/i4/2590951958/TB2txfLjOCYBuNkSnaVXXcMsVXa_!!2590951958.jpg" mode='aspectFill'></image>
-                <view class="house-list-text">
-                    <text class="text-title">开泰华府，精装72平，带家具西打头带西窗户</text>
-                    <text class="text-desc">2室1厅1卫 72.00㎡ | 莱阳市 冯格庄街道</text>
-                    <view class="text-icon-group">
-                        <text class="text-icon icon1">新上</text>
-                        <text class="text-icon icon3">南北通透</text>
-                    </view>
-                    <text class="text-prince">37万</text>
-                    <text class="text-square">5139元/㎡</text>
-                </view>
-            </view>
-            <view class="house-bd-list">
-                <image class="house-list-img" src="https://img.alicdn.com/imgextra/i3/2590951958/TB2mmdlsb5YBuNjSspoXXbeNFXa_!!2590951958.jpg" mode='aspectFill'></image>
-                <view class="house-list-text">
-                    <text class="text-title">文化北区，精装二楼，客厅带阳台</text>
-                    <text class="text-desc">3室2厅1卫 88.00㎡ | 莱阳市 东关联中…</text>
-                    <view class="text-icon-group">
-                        <text class="text-icon icon1">新上</text>
-                        <text class="text-icon icon3">南北通透</text>
-                    </view>
-                    <text class="text-prince">65万</text>
-                    <text class="text-square">7386元/㎡</text>
-                </view>
-            </view>
+            <text class="text-prince">{{item.totalPrince}}万</text>
+            <text class="text-square">{{item.prince}}元/㎡</text>
+          </view>
         </view>
+      </view>
     </view>
 </view>
