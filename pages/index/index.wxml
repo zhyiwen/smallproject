@@ -6,42 +6,41 @@
     <icon class="icon-shuohua"></icon>
     <icon class="icon-sao"></icon>
   </view>
-  <image src="/assets/images/banner-text.png" class="banner-text"></image>
 </view>
 <view class="content">
     <view class="pro clearfix">
         <navigator url='#' class='pro-list'>
-            <image src="/assets/images/pro1.png" class="pro-img"></image>
+            <image src="https://m.360buyimg.com/mobilecms/jfs/t16912/18/2046755333/11079/5d93a046/5ae41d1aN7c1bb190.png" class="pro-img"></image>
             <text class="pro-text">买二手房</text>
         </navigator>
         <navigator url='#' class='pro-list'>
-            <image src="/assets/images/pro2.png" class="pro-img"></image>
+            <image src="https://m.360buyimg.com/mobilecms/jfs/t21658/347/221358098/7461/f86e6f74/5b03b170Nc9e0ec7c.png" class="pro-img"></image>
             <text class="pro-text">租房</text>
         </navigator>
         <navigator url='#' class='pro-list'>
-            <image src="/assets/images/pro3.png" class="pro-img"></image>
+            <image src="https://m.360buyimg.com/mobilecms/jfs/t20944/163/194330487/133491/d8f28975/5b02a307N06127cd7.gif" class="pro-img"></image>
             <text class="pro-text">我要卖房</text>
         </navigator>
         <navigator url='#' class='pro-list'>
-            <image src="/assets/images/pro4.png" class="pro-img"></image>
+            <image src="https://m.360buyimg.com/mobilecms/jfs/t17725/156/1767366877/17404/f45d418b/5ad87bf0N66c5db7c.png" class="pro-img"></image>
             <text class="pro-text">价格行情</text>
         </navigator>
         <navigator url='#' class='pro-list'>
-            <image src="/assets/images/pro5.png" class="pro-img"></image>
+            <image src="https://m.360buyimg.com/mobilecms/jfs/t20860/204/215345958/6866/139dc352/5b03b902N8cc08b40.png" class="pro-img"></image>
             <text class="pro-text">房贷计算器</text>
         </navigator>
         <navigator url='#' class='pro-list'>
-            <image src="/assets/images/pro6.png" class="pro-img"></image>
+            <image src="https://m.360buyimg.com/mobilecms/jfs/t22228/270/207441984/11564/88140ab7/5b03fae3N67f78fe3.png" class="pro-img"></image>
             <text class="pro-text">房产百科</text>
         </navigator>
         <navigator url='#' class='pro-list'>
-            <image src="/assets/images/pro7.png" class="pro-img"></image>
+            <image src="https://m.360buyimg.com/mobilecms/jfs/t22153/281/207780317/13934/d5a42e79/5b03faf3Nf3e409c2.png" class="pro-img"></image>
             <text class="pro-text">最近浏览</text>
         </navigator>
     </view>
     <view class='intention'>
-        <text class='intention-title'>购房意向</text>
-        <navigator url='' class='intention-a'>填写购房意向，让经纪人来帮你找房</navigator>
+        <text class='intention-title'>热门资讯</text>
+        <navigator url='' class='intention-a'>三只松鼠全场满199减30！</navigator>
         <icon class='next-icon'></icon>
     </view>
     <view class='sort clearfix'>

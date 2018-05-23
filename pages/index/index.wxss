@@ -4,7 +4,7 @@
   height: 230rpx;
   padding: 40rpx 0;
   text-align: center;
-  background: url(https://img.alicdn.com/imgextra/i1/2590951958/TB2jkvEjS8YBeNkSnb4XXaevFXa_!!2590951958.jpg) no-repeat center;
+  background: url(https://m.360buyimg.com/mobilecms/s828x404_jfs/t21421/124/139872572/134602/1b48b648/5afe9181N6dee533f.jpg!cr_1125x549_0_72!q70.jpg.dpg) no-repeat center;
   background-size: 100%;
 }
 .search-box{
@@ -86,7 +86,7 @@
   width: 20%;
   font-size: 15px;
   font-weight: bold;
-  color: #4483d7;
+  color: #e62f2d;
   border-right: 1px solid #e4e4e4;
 }
 .intention .intention-a{

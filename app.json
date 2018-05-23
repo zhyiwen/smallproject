@@ -17,7 +17,7 @@
   },
   "tabBar": {
     "color": "#737373",
-    "selectedColor": "#4081d6",
+    "selectedColor": "#e62f2d",
     "borderStyle":"#b2b2b2",
     "list": [
       {
@@ -34,9 +34,15 @@
       },
       {
         "pagePath": "pages/list/list",
-        "text": "看房",
-        "iconPath": "assets/images/form_light.png",
-        "selectedIconPath": "assets/images/form_fill_light.png"
+        "text": "发现",
+        "iconPath": "assets/images/goods_new_light.png",
+        "selectedIconPath": "assets/images/goods_new_fill_light.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "购物车",
+        "iconPath": "assets/images/cart_light.png",
+        "selectedIconPath": "assets/images/cart_fill_light.png"
       },
       {
         "pagePath": "pages/home/home",
