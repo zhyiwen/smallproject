@@ -11,31 +11,35 @@
     <view class="pro clearfix">
         <navigator url='#' class='pro-list'>
             <image src="https://m.360buyimg.com/mobilecms/jfs/t16912/18/2046755333/11079/5d93a046/5ae41d1aN7c1bb190.png" class="pro-img"></image>
-            <text class="pro-text">买二手房</text>
+            <text class="pro-text">二毛超市</text>
         </navigator>
         <navigator url='#' class='pro-list'>
             <image src="https://m.360buyimg.com/mobilecms/jfs/t21658/347/221358098/7461/f86e6f74/5b03b170Nc9e0ec7c.png" class="pro-img"></image>
-            <text class="pro-text">租房</text>
+            <text class="pro-text">全球购</text>
         </navigator>
         <navigator url='#' class='pro-list'>
             <image src="https://m.360buyimg.com/mobilecms/jfs/t20944/163/194330487/133491/d8f28975/5b02a307N06127cd7.gif" class="pro-img"></image>
-            <text class="pro-text">我要卖房</text>
+            <text class="pro-text">二毛服饰</text>
         </navigator>
         <navigator url='#' class='pro-list'>
             <image src="https://m.360buyimg.com/mobilecms/jfs/t17725/156/1767366877/17404/f45d418b/5ad87bf0N66c5db7c.png" class="pro-img"></image>
-            <text class="pro-text">价格行情</text>
+            <text class="pro-text">二毛生鲜</text>
         </navigator>
         <navigator url='#' class='pro-list'>
             <image src="https://m.360buyimg.com/mobilecms/jfs/t20860/204/215345958/6866/139dc352/5b03b902N8cc08b40.png" class="pro-img"></image>
-            <text class="pro-text">房贷计算器</text>
+            <text class="pro-text">排行榜</text>
         </navigator>
         <navigator url='#' class='pro-list'>
             <image src="https://m.360buyimg.com/mobilecms/jfs/t22228/270/207441984/11564/88140ab7/5b03fae3N67f78fe3.png" class="pro-img"></image>
-            <text class="pro-text">房产百科</text>
+            <text class="pro-text">9.9元拼</text>
+        </navigator>
+        <navigator url='#' class='pro-list'>
+            <image src="https://m.360buyimg.com/mobilecms/jfs/t19495/200/1823004232/14065/ca00ab2c/5ad87cf5N4ad8e6f1.png" class="pro-img"></image>
+            <text class="pro-text">领券</text>
         </navigator>
         <navigator url='#' class='pro-list'>
             <image src="https://m.360buyimg.com/mobilecms/jfs/t22153/281/207780317/13934/d5a42e79/5b03faf3Nf3e409c2.png" class="pro-img"></image>
-            <text class="pro-text">最近浏览</text>
+            <text class="pro-text">全部</text>
         </navigator>
     </view>
     <view class='intention'>
@@ -44,38 +48,37 @@
         <icon class='next-icon'></icon>
     </view>
     <view class='sort clearfix'>
+        <image src='//image5.suning.cn/uimg/cms/img/152706834090601246.gif' mode='widthFix' lazy-load='true'></image>
         <navigator url='' class='sort-list' hover-class='hover-sort-list'>
-            <image src='/assets/images/sort1.png' mode='widthFix' lazy-load='true'></image>
+            <image src='/assets/images/sort2.jpg' mode='widthFix' lazy-load='true'></image>
         </navigator>
         <navigator url='' class='sort-list' hover-class='hover-sort-list'>
-            <image src='/assets/images/sort2.png' mode='widthFix' lazy-load='true'></image>
+            <image src='/assets/images/sort3.jpg' mode='widthFix' lazy-load='true'></image>
         </navigator>
         <navigator url='' class='sort-list' hover-class='hover-sort-list'>
-            <image src='/assets/images/sort3.png' mode='widthFix' lazy-load='true'></image>
+            <image src='/assets/images/sort4.jpg' mode='widthFix' lazy-load='true'></image>
         </navigator>
         <navigator url='' class='sort-list' hover-class='hover-sort-list'>
-            <image src='/assets/images/sort4.png' mode='widthFix' lazy-load='true'></image>
+            <image src='/assets/images/sort5.jpg' mode='widthFix' lazy-load='true'></image>
         </navigator>
     </view>
-    <view class='house secondHouse'>
+    <view class='house'>
       <view class='house-hd clearfix'>
-        <text class='house-title'>推荐二手房</text>
-        <text class='house-desc'>全部二手房</text>
+        <text class='house-title'>精品推荐</text>
+        <text class='house-desc'>更多</text>
         <icon class='next-icon'></icon>
       </view>
-      <view class="house-bd" wx:for="{{secondHouseArray}}">
+      <view class="house-bd" wx:for="{{goodsArray}}">
         <view class="house-bd-list">
           <image class="house-list-img" src="{{item.imgSrc}}" mode='aspectFill'></image>
           <view class="house-list-text">
             <text class="text-title">{{item.title}}</text>
-            <text class="text-desc">{{item.pattern}} {{item.acreage}}㎡ | {{item.adress}}</text>
             <view class="text-icon-group">
-              <text class="text-icon icon1" wx:if="{{item.icon1}}">新上</text>
-              <text class="text-icon icon2" wx:if="{{item.icon2}}">满二</text>
-              <text class="text-icon icon3" wx:if="{{item.icon3}}">南北通透</text>
+              <text class="text-icon icon1" wx:if="{{item.icon1}}">新品</text>
+              <text class="text-icon icon2" wx:if="{{item.icon2}}">聚划算</text>
+              <text class="text-icon icon3" wx:if="{{item.icon3}}">天猫</text>
             </view>
-            <text class="text-prince">{{item.totalPrince}}万</text>
-            <text class="text-square">{{item.prince}}元/㎡</text>
+            <text class="text-prince">￥{{item.totalPrince}}</text>
           </view>
         </view>
       </view>

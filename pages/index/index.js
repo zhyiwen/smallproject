@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    secondHouseArray:[
+    goodsArray:[
       {
         imgSrc:"https://img.alicdn.com/imgextra/i2/2590951958/TB2zU0Xsf9TBuNjy1zbXXXpepXa_!!2590951958.jpg",
         title:"鹤山小区精装修，南北通透 冬天下雨，夏天漏风",
